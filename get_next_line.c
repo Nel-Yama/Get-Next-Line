@@ -104,6 +104,10 @@ char	*get_next_line(int fd)
 	return (line);
 }
 /**
+#include <fcntl.h>     // For open()
+#include <stdio.h>     // For printf(), perror()
+#include <stdlib.h>    // For free()
+
 int main(int argc, char **argv)
 {
     int     fd;
